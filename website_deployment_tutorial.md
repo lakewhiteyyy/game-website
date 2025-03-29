@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>游戏乐园 - 免费在线游戏</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>游戏乐园</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="games/action/">动作游戏</a></li>
+                <li><a href="games/puzzle/">益智游戏</a></li>
+                <li><a href="games/strategy/">策略游戏</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- 热门游戏轮播 -->
+        <section class="featured-games">
+            <h2>热门游戏</h2>
+            <div class="carousel">
+                <div class="carousel-item active">
+                    <a href="games/action/monster-survivors.html">
+                        <img src="assets/images/placeholder-game.jpg" alt="Monster Survivors">
+                        <div class="carousel-caption">
+                            <h3>Monster Survivors</h3>
+                            <p>在怪物围攻中生存下来</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="games/puzzle/puzzle-master.html">
+                        <img src="assets/images/placeholder-game.jpg" alt="Puzzle Master">
+                        <div class="carousel-caption">
+                            <h3>Puzzle Master</h3>
+                            <p>解开谜题，挑战智力</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="games/strategy/strategy-commander.html">
+                        <img src="assets/images/placeholder-game.jpg" alt="Strategy Commander">
+                        <div class="carousel-caption">
+                            <h3>Strategy Commander</h3>
+                            <p>指挥你的军队，征服世界</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 游戏分类列表 -->
+        <section class="game-categories">
+            <div class="category">
+                <h2>动作游戏</h2>
+                <div class="games-grid">
+                    <div class="game-card">
+                        <a href="games/action/monster-survivors.html">
+                            <img src="assets/images/placeholder-game.jpg" alt="Monster Survivors">
+                            <h3>Monster Survivors</h3>
+                        </a>
+                    </div>
+                    <div class="game-card">
+                        <a href="games/action/ninja-runner.html">
+                            <img src="assets/images/placeholder-game.jpg" alt="Ninja Runner">
+                            <h3>Ninja Runner</h3>
+                        </a>
+                    </div>
+                    <div class="game-card">
+                        <a href="games/action/space-shooter.html">
+                            <img src="assets/images/placeholder-game.jpg" alt="Space Shooter">
+                            <h3>Space Shooter</h3>
+                        </a>
+                    </div>
+                    <div class="game-card">
+                        <a href="games/action/zombie-survival.html">
+                            <img src="assets/images/placeholder-game.jpg" alt="Zombie Survival">
+                            <h3>Zombie Survival</h3>
+                        </a>
+                    </div>
+                </div>
+                <a href="games/action/" class="see-more">查看更多动作游戏</a>
+            </div>
+            
+            <div class="category">
+                <h2>益智游戏</h2>
+                <div class="games-grid">
+                    <div class="game-card">
+                        <a href="games/puzzle/puzzle-master.html">
+                            <img src="assets/images/placeholder-game.jpg" alt="Puzzle Master">
+                            <h3>Puzzle Master</h3>
+                        </a>
+                    </div>
+                    <div class="game-card">
+                        <a href="games/puzzle/math-challenge.html">
+                            <img src="assets/images/placeholder-game.jpg" alt="Math Challenge">
+                            <h3>Math Challenge</h3>
+                        </a>
+                    </div>
+                    <div class="game-card">
+                        <a href="games/puzzle/memory-match.html">
+                            <img src="assets/images/placeholder-game.jpg" alt="Memory Match">
+                            <h3>Memory Match</h3>
+                        </a>
+                    </div>
+                    <div class="game-card">
+                        <a href="games/puzzle/word-search.html">
+                            <img src="assets/images/placeholder-game.jpg" alt="Word Search">
+                            <h3>Word Search</h3>
+                        </a>
+                    </div>
+                </div>
+                <a href="games/puzzle/" class="see-more">查看更多益智游戏</a>
+            </div>
+            
+            <div class="category">
+                <h2>策略游戏</h2>
+                <div class="games-grid">
+                    <div class="game-card">
+                        <a href="games/strategy/strategy-commander.html">
+                            <img src="assets/images/placeholder-game.jpg" alt="Strategy Commander">
+                            <h3>Strategy Commander</h3>
+                        </a>
+                    </div>
+                    <div class="game-card">
+                        <a href="games/strategy/tower-defense.html">
+                            <img src="assets/images/placeholder-game.jpg" alt="Tower Defense">
+                            <h3>Tower Defense</h3>
+                        </a>
+                    </div>
+                    <div class="game-card">
+                        <a href="games/strategy/city-builder.html">
+                            <img src="assets/images/placeholder-game.jpg" alt="City Builder">
+                            <h3>City Builder</h3>
+                        </a>
+                    </div>
+                    <div class="game-card">
+                        <a href="games/strategy/chess-master.html">
+                            <img src="assets/images/placeholder-game.jpg" alt="Chess Master">
+                            <h3>Chess Master</h3>
+                        </a>
+                    </div>
+                </div>
+                <a href="games/strategy/" class="see-more">查看更多策略游戏</a>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 游戏乐园 - 所有游戏版权归原作者所有</p>
+    </footer>
+</body>
+</html>
